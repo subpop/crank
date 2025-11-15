@@ -1,0 +1,6 @@
+# Build artifacts
+build/
+
+# Generated metadata
+source/pdxinfo
+

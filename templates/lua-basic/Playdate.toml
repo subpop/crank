@@ -1,0 +1,24 @@
+[package]
+name = "{{PROJECT_NAME}}"
+version = "1.0.0"
+author = ""
+description = ""
+bundle_id = "{{BUNDLE_ID}}"
+
+[build]
+language = "lua"
+source_dir = "source"
+output_dir = "build"
+assets_dir = "assets"
+
+[playdate]
+content_warning = ""
+content_warning_2 = ""
+image_path = "icon"
+
+[dev]
+hot_reload = true
+auto_build = true
+
+[dependencies]
+
